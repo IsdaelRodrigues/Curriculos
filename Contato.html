@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Introdução a CSS</title>
+    <link href="css/estilo.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <header>
+        <p class="esquerda"> Isdael Rodrigues Oliveira</p>
+        <p class="direita"> isdaelrodriguestopado@gmail.com</p>
+    </header>
+    <aside class="esquerda">
+        <div class="container">
+            <img src="img/homem.png">
+        </div>
+        <p>Nacionalidade: Brasileira</p>
+        <p>Telefone:(89) 9 9404-9172</p>
+        <p>Sexo: Masculino</p>
+        <p>Idade: 16 anos</p>
+        <p>Endereço: Rua Antonio H. de Sousa, nº 190, bairro São Jose, Picos-PI</p>
+    </aside>
+    <main class="direita">    
+        <form method="GET">
+            <h2 class="txt-center">Contato</h2>
+            <p>
+                <label>Nome:</label><br>
+                <input required type="text" name="firstname" placeholder="Digite seu nome">
+            </p>
+            <p>
+                <label>Sobrenome:</label><br>
+                <input required type="text" name="lastname" placeholder="Digite seu sobrenome">
+            </p>
+            <p>
+                <label>Email:</label><br>
+                <input required type="email" name="email" placeholder="Digite seu email">
+            </p>
+            <p>
+                <label>Assunto</label>
+                <select name="Assunto">
+                <option value="Selecione">Selecione</option>
+                <option value="Ajuda">Ajuda</option>
+                <option value="Proposta">Proposta</option>
+                <option value="Dúvida">Duvida</option>
+                </select>
+            </p>
+            <br>
+            <textarea name="message" rows="15" cols="40"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer>
+        <p>IFPI-Pantanal, Picos-PI</p>
+    </footer>
+</body>
+
+</html>
